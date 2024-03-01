@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" modified="2024-03-01T18:21:27.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="byXC0Uw4BVFaWQo24los" version="24.0.0" type="device">
+  <diagram name="Page-1" id="FVuAVfhM0QDUYKfAm90K">
+    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IrfpcqOniIMmqdscnvj3-1" value="+-----------------+&#xa;| TravelPackage   |&#xa;+-----------------+&#xa;| - name          |&#xa;| - passengerCap  |&#xa;| - itinerary     |&#xa;| - passengerList |&#xa;+-----------------+&#xa;         |&#xa;         | contains&#xa;         |&#xa;         v&#xa;+----------------+&#xa;| Destination    |&#xa;+----------------+&#xa;| - name         |&#xa;| - activities   |&#xa;+----------------+&#xa;         |&#xa;         | contains&#xa;         |&#xa;         v&#xa;+----------------+&#xa;| Activity       |&#xa;+----------------+&#xa;| - name         |&#xa;| - description  |&#xa;| - cost         |&#xa;| - capacity     |&#xa;+----------------+&#xa;         |&#xa;         | is attended by&#xa;         |&#xa;         v&#xa;+----------------+&#xa;| Passenger      |&#xa;+----------------+&#xa;| - name         |&#xa;| - number       |&#xa;| - type         |&#xa;| - balance      |&#xa;| - activities   |&#xa;+----------------+" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="140" height="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
